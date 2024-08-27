@@ -1,1 +1,3 @@
 # AI-DS
+
+El curso "Inteligencia artificial avanzada para la ciencia de datos I" abarca la historia de la IA, desde sus inicios hasta los avances recientes, destacando contribuciones clave como las de Geoffrey Hinton en el aprendizaje profundo. Se incluyen módulos sobre estadística, aprendizaje automático y desarrollo de software, con un plan de evaluación que combina programas individuales y en equipo, exámenes y directrices estrictas sobre la originalidad del trabajo. Se enfatiza la importancia de la ética y la regulación en el desarrollo de la IA.
