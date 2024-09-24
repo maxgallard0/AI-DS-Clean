@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<style>
+    body {
+        font-family: "Helvetica", sans-serif;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción del Juego de Catan</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Predicción del Juego de Catan</h1>
+        <form action="/predict" method="post">
+            <label for="settlement1_dice1">Dado 1, Asentamiento 1:</label><br>
+            <input type="number" step="any" name="settlement1_dice1"><br>
+
+            <label for="settlement1_dice2">Dado 2, Asentamiento 1:</label><br>
+            <input type="number" step="any" name="settlement1_dice2"><br>
+
+            <label for="settlement1_dice3">Dado 3, Asentamiento 1:</label><br>
+            <input type="number" step="any" name="settlement1_dice3"><br>
+
+            <label for="settlement2_dice1">Dado 1, Asentamiento 2:</label><br>
+            <input type="number" step="any" name="settlement2_dice1"><br>
+
+            <label for="settlement2_dice2">Dado 2, Asentamiento 2:</label><br>
+            <input type="number" step="any" name="settlement2_dice2"><br>
+
+            <label for="settlement2_dice3">Dado 3, Asentamiento 2:</label><br>
+            <input type="number" step="any" name="settlement2_dice3"><br>
+
+            <label for="num_lumber">Madera:</label><br>
+            <input type="number" step="any" name="num_lumber"><br>
+
+            <label for="num_wheat">Trigo:</label><br>
+            <input type="number" step="any" name="num_wheat"><br>
+
+            <label for="num_clay">Arcilla:</label><br>
+            <input type="number" step="any" name="num_clay"><br>
+
+            <label for="num_sheep">Oveja:</label><br>
+            <input type="number" step="any" name="num_sheep"><br>
+
+            <label for="num_ore">Piedra:</label><br>
+            <input type="number" step="any" name="num_ore"><br>
+
+            <label for="num_3G">Puerto 3x1:</label><br>
+            <input type="number" step="any" name="num_3G"><br>
+
+            <label for="num_2(X)">Puerto 2x1:</label><br>
+            <input type="number" step="any" name="num_2(X)"><br>
+
+            <label for="num_D">Desierto:</label><br>
+            <input type="number" step="any" name="num_D"><br>
+
+            <input type="submit" value="Predecir">
+        </form>
+        <h2>{{ prediction_text }}</h2>
+    </div>
+</body>
+</html>
